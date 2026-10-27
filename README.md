@@ -11,7 +11,7 @@ This release contains saved ANSYS Fluent models and numerical evidence for a 30 
 - Reproduction commands: `docs/REPRODUCE.md`.
 - Definitions and signs: `docs/sign_conventions.md` and `metadata/data_dictionary.csv`.
 - Figure/table/source index: `metadata/figure_table_map.csv`.
-- Pending publication steps: `docs/PUBLISH_TO_GITHUB.md`.
+
 
 ## Verify the tabular results (Python standard library only)
 
