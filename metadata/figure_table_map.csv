@@ -1,0 +1,8 @@
+﻿section,figure_or_table,source_csv,notes
+3.2,Figure 3-1,data/baseline/baseline_monitor.csv;data/baseline/axial_layer_profile_150s.csv,Saved history and 50-layer profile; starts 33.55 s
+3.3,Figure 3-2,data/dense_coarse/monitor_200.csv,200 native points; independent dense coarse run
+3.4,Figure 3-3; Table 3-2,data/time_step/exact_section_corrected.csv,Corrected exact-section extraction; 150.25-160 s common window
+3.5,Figure 3-4; Table 3-3,"data/three_grid/{coarse,medium,fine}/monitor.csv;data/three_grid/{coarse,medium,fine}/residuals_final_iteration.csv",40 monitors and 1000 step-final residuals per grid; display thinning is not new data
+3.5,Section profiles,data/three_grid/section_profiles_155s_160s.csv,Archived derived profiles
+3.6,Figure 3-5,data/boundary/monitor.csv,Three numerical outlet scenarios; 40 records each
+3.7,Figure 3-6,data/roughness/manning_sweep.csv,Analytical Manning sweep; not roughness CFD runs

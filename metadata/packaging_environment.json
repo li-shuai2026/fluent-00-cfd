@@ -1,0 +1,12 @@
+{
+  "purpose": "environment used to inspect/package data, not a reconstructed full historical solver environment",
+  "packages": {
+    "python": "3.11.9",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "ansys-fluent-core": "0.42.1",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "h5py": "3.16.0",
+    "matplotlib": "3.11.1"
+  }
+}

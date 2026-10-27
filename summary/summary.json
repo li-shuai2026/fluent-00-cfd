@@ -1,0 +1,179 @@
+{
+  "description": "Recomputed from packaged native source rows; no interpolation or smoothing",
+  "checks": [
+    "three grids x40 native monitor points",
+    "three grids x1000 final-iteration residual records",
+    "200 dense coarse checkpoints",
+    "40/79/157 common-window timestep samples",
+    "3x40 boundary samples",
+    "14641 Manning sweep combinations",
+    "recorded instantaneous flow difference formula"
+  ],
+  "three_grid": [
+    {
+      "grid": "coarse",
+      "window_s": "150.25-155.00",
+      "n": 20,
+      "mean_qout_m3_s": 0.6869348029598261,
+      "mean_deltaQ_pct": 0.03256672144119021,
+      "max_deltaQ_pct": 0.07477523289849275
+    },
+    {
+      "grid": "coarse",
+      "window_s": "155.25-160.00",
+      "n": 20,
+      "mean_qout_m3_s": 0.6869896488996398,
+      "mean_deltaQ_pct": 0.036495767251667595,
+      "max_deltaQ_pct": 0.07890169838087331
+    },
+    {
+      "grid": "coarse",
+      "window_s": "150.25-160.00",
+      "n": 40,
+      "mean_qout_m3_s": 0.6869622259297329,
+      "mean_deltaQ_pct": 0.0345312443464289,
+      "max_deltaQ_pct": 0.07890169838087331
+    },
+    {
+      "grid": "medium",
+      "window_s": "150.25-155.00",
+      "n": 20,
+      "mean_qout_m3_s": 0.6871495050581712,
+      "mean_deltaQ_pct": 0.046932147208098324,
+      "max_deltaQ_pct": 0.13576754424209644
+    },
+    {
+      "grid": "medium",
+      "window_s": "155.25-160.00",
+      "n": 20,
+      "mean_qout_m3_s": 0.6872930375345344,
+      "mean_deltaQ_pct": 0.04906302659752147,
+      "max_deltaQ_pct": 0.12905438718757042
+    },
+    {
+      "grid": "medium",
+      "window_s": "150.25-160.00",
+      "n": 40,
+      "mean_qout_m3_s": 0.6872212712963528,
+      "mean_deltaQ_pct": 0.0479975869028099,
+      "max_deltaQ_pct": 0.13576754424209644
+    },
+    {
+      "grid": "fine",
+      "window_s": "150.25-155.00",
+      "n": 20,
+      "mean_qout_m3_s": 0.687123432101822,
+      "mean_deltaQ_pct": 0.04483348834270827,
+      "max_deltaQ_pct": 0.12661239277514566
+    },
+    {
+      "grid": "fine",
+      "window_s": "155.25-160.00",
+      "n": 20,
+      "mean_qout_m3_s": 0.6865783573483683,
+      "mean_deltaQ_pct": 0.14649901586983025,
+      "max_deltaQ_pct": 0.29952241744864777
+    },
+    {
+      "grid": "fine",
+      "window_s": "150.25-160.00",
+      "n": 40,
+      "mean_qout_m3_s": 0.6868508947250951,
+      "mean_deltaQ_pct": 0.09566625210626925,
+      "max_deltaQ_pct": 0.29952241744864777
+    }
+  ],
+  "time_step": [
+    {
+      "dt_s": 0.01,
+      "n": 40,
+      "mean_qout_m3_s": 0.6869642723137078,
+      "mean_mid_H_D": 0.7210312166868743,
+      "mean_deltaQ_pct": 0.03497780353490557,
+      "max_deltaQ_pct": 0.07890169838087331
+    },
+    {
+      "dt_s": 0.005,
+      "n": 79,
+      "mean_qout_m3_s": 0.6873286880251102,
+      "mean_mid_H_D": 0.7214305851288607,
+      "mean_deltaQ_pct": 0.06934462858305482,
+      "max_deltaQ_pct": 0.18264078801422554
+    },
+    {
+      "dt_s": 0.0025,
+      "n": 157,
+      "mean_qout_m3_s": 0.6875528712935763,
+      "mean_mid_H_D": 0.7217015975797365,
+      "mean_deltaQ_pct": 0.11945623455447191,
+      "max_deltaQ_pct": 0.38664783243302697
+    }
+  ],
+  "dense_coarse": {
+    "n": 200,
+    "t_start_s": 150.05,
+    "t_end_s": 160.0,
+    "qout_m3_s": {
+      "mean": 0.686943673409655,
+      "min": 0.686469713727,
+      "max": 0.687396453973,
+      "end_minus_start": 0.0003412129909999839
+    },
+    "mid_h_D": {
+      "mean": 0.72102655156384,
+      "min": 0.720625346553,
+      "max": 0.721376451452,
+      "end_minus_start": -7.989396300001061e-05
+    },
+    "outlet_h_D": {
+      "mean": 0.700933322005265,
+      "min": 0.700759300117,
+      "max": 0.701131053603,
+      "end_minus_start": 0.00015805864399998093
+    },
+    "water_volume_m3": {
+      "mean": 11.239917059239,
+      "min": 11.2394895897,
+      "max": 11.2402365874,
+      "end_minus_start": 0.0005719530999996891
+    },
+    "flow_difference_pct": {
+      "mean": 0.03242000552858203,
+      "min": 0.00024977638308,
+      "max": 0.0771886860235,
+      "end_minus_start": -0.03979752418935
+    },
+    "qout_cv_pct": 0.03749510988787965,
+    "mid_depth_range_mm": 0.590368449999934
+  },
+  "boundary": [
+    {
+      "condition": "B1_low_tailwater_h05002",
+      "n": 40,
+      "mean_qout_m3_s": 0.6996797319227,
+      "mean_mid_H_D": 0.720959974641375,
+      "mean_outlet_H_D": 0.6530088279019
+    },
+    {
+      "condition": "B2_high_tailwater_h06002",
+      "n": 40,
+      "mean_qout_m3_s": 0.667178994909,
+      "mean_mid_H_D": 0.720974656828175,
+      "mean_outlet_H_D": 0.75628528518975
+    },
+    {
+      "condition": "B3_outflow_free_discharge",
+      "n": 40,
+      "mean_qout_m3_s": 0.6609205104701,
+      "mean_mid_H_D": 0.721000533197225,
+      "mean_outlet_H_D": 0.767146784481175
+    }
+  ],
+  "roughness": {
+    "n": 14641,
+    "C": 0.9540112384061833,
+    "K_min": 1.11301311147,
+    "K_max": 2.12002497424,
+    "n2_design_threshold": 0.012402146099280382
+  }
+}

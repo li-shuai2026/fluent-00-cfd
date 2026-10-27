@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 1,
+    "axes": 4,
+    "overlapping_panel_bounds": []
+  },
+  {
+    "figure": 2,
+    "axes": 4,
+    "overlapping_panel_bounds": []
+  },
+  {
+    "figure": 3,
+    "axes": 4,
+    "overlapping_panel_bounds": []
+  },
+  {
+    "figure": 4,
+    "axes": 4,
+    "overlapping_panel_bounds": []
+  },
+  {
+    "figure": 5,
+    "axes": 4,
+    "overlapping_panel_bounds": []
+  },
+  {
+    "figure": 6,
+    "axes": 4,
+    "overlapping_panel_bounds": []
+  }
+]

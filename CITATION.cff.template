@@ -1,0 +1,13 @@
+# TEMPLATE ONLY: supply real information before renaming to CITATION.cff.
+cff-version: 1.2.0
+message: "Please cite the released dataset and code after the citation details are finalized."
+title: "[FORMAL PROJECT TITLE TO BE CONFIRMED]"
+version: "0.2.0-prepublication"
+type: dataset
+# authors:
+#   - family-names: "[FAMILY NAME]"
+#     given-names: "[GIVEN NAME]"
+#     orcid: "[VERIFIED ORCID, IF AVAILABLE]"
+# repository-code: "[LIVE GITHUB URL]"
+# doi: "[ACTUAL DEPOSIT DOI]"
+# license: "[ADOPTED SPDX LICENSE IDENTIFIER]"

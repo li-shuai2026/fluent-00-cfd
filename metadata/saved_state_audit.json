@@ -1,0 +1,362 @@
+[
+  {
+    "case": "models/additional_160s/dense_coarse/dense_coarse_160s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0822,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000025,
+    "fluent_step": 45466.0
+  },
+  {
+    "case": "models/additional_160s/dt0025/dt0025_160s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.0025,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0822,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 48466.0
+  },
+  {
+    "case": "models/additional_160s/dt005/dt005_160s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.005,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0822,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 46466.0
+  },
+  {
+    "case": "models/additional_160s/high_tailwater/high_tailwater_160s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.1322,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 45466.0
+  },
+  {
+    "case": "models/additional_160s/low_tailwater/low_tailwater_160s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0322,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 45466.0
+  },
+  {
+    "case": "models/additional_160s/outflow/outflow_160s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": null,
+    "outlet_bottom_elevation_m": null,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "outflow",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 45466.0
+  },
+  {
+    "case": "models/baseline_150s/coarse_150s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0822,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 150.0000000000002,
+    "fluent_step": 44466.0
+  },
+  {
+    "case": "models/three_grid/coarse/coarse_160s.cas.h5",
+    "cells": 225000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0822,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 45466.0
+  },
+  {
+    "case": "models/three_grid/fine/fine_160s.cas.h5",
+    "cells": 900000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0822,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 45466.0
+  },
+  {
+    "case": "models/three_grid/medium/medium_160s.cas.h5",
+    "cells": 450000,
+    "solver_file_version": "26.1",
+    "dt_s": 0.01,
+    "max_inner_iterations": 30.0,
+    "gravity_m_s2": [
+      0.024524923,
+      -9.81,
+      0.0
+    ],
+    "outlet_free_surface_elevation_m": 0.0822,
+    "outlet_bottom_elevation_m": -0.468,
+    "sand_grain_roughness_m": 0.00032,
+    "roughness_constant": 0.5,
+    "inlet_water_velocity_m_s": 1.901743605170804,
+    "inlet_air_velocity_m_s": 0.1,
+    "boundary_zone_types": {
+      "inlet-water": "velocity-inlet",
+      "inlet-air": "velocity-inlet",
+      "outlet-single": "pressure-outlet",
+      "wall": "wall"
+    },
+    "mesh_coordinate_min_m": [
+      0.0,
+      -0.393,
+      -0.393
+    ],
+    "mesh_coordinate_max_m": [
+      30.0,
+      0.393,
+      0.393
+    ],
+    "flow_time_s": 160.0000000000002,
+    "fluent_step": 45466.0
+  }
+]

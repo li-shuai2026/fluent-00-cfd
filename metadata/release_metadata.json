@@ -1,0 +1,31 @@
+{
+  "title": "UV-CIPP gravity-pipe CFD reproducibility package",
+  "version": "0.2.0-prepublication",
+  "prepared": "2026-10-27",
+  "publication_status": "local draft; not uploaded",
+  "authors": null,
+  "project_name": null,
+  "repository_url": null,
+  "doi": null,
+  "code_license": null,
+  "data_license": null,
+  "proposed_code_license": "MIT",
+  "proposed_data_license": "CC-BY-4.0",
+  "software": "ANSYS Fluent 2026 R1 (26.1), 3D double precision",
+  "grids": {
+    "coarse": 225000,
+    "medium": 450000,
+    "fine": 900000
+  },
+  "baseline_time_s": 150,
+  "three_grid_end_time_s": 160,
+  "dt_s": 0.01,
+  "max_inner_iterations": 30,
+  "grid_monitor_interval_steps": 25,
+  "dense_coarse_monitor_interval_steps": 5,
+  "original_total_processors": 14,
+  "historical_settings_superseded": true,
+  "saved_state_authority": "metadata/saved_state_audit.json",
+  "full_checkpoints": "11 independently extractable optional ZIP archives listed in metadata/checkpoints.csv",
+  "figure_3_3_corrected_exact_section": true
+}

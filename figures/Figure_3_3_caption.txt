@@ -1,0 +1,2 @@
+图3-3 粗网格时间步敏感性：(a)出口水相流量；(b)x=15 m精确断面等效相对水深；(c)瞬时进出口相对流量差绝对值；(d)中部相对水深相对共同窗口起点150.25 s的变化。三组采用原生检查点，0.01 s水深以40份保存场重新提取；未插值或平滑。
+Fig. 3-3 Coarse-grid time-step sensitivity based on the corrected exact-section depth data.

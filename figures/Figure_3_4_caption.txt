@@ -1,0 +1,3 @@
+图3-4 三网格模型的空间与时间响应比较。粗、中、细网格分别包含225000、450000和900000个单元。(a)出口水相流量；(b)记录的进出口水相流量相对差；(c)连续性残差；(d)ε残差。三网格续算均以150 s共同场为起点，采用Δt=0.01 s、每步最多30次内迭代；(a、b)曲线连接150.25–160.00 s窗口内40个原生检查点，(c、d)源数据为每个物理时间步最后一次内迭代的残差，图中均匀连接其中约四分之一的原生检查点以降低视觉密度，采用对数坐标。
+
+Fig. 3-4 Three-grid comparison during the 150–160 s continuation. Panels show (a) outlet water flow; (b) recorded inlet-outlet flow difference; (c) continuity residual; and (d) ε residual. Panels (a,b) connect 40 native checkpoints from 150.25–160.00 s; panels (c,d) retain the complete 1000-point source tables but plot approximately every fourth native final-iteration checkpoint on logarithmic axes to reduce visual density.
