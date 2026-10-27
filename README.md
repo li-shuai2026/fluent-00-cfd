@@ -1,6 +1,6 @@
 # UV-CIPP gravity-pipe CFD reproducibility package
 
-Local prepublication draft, version 0.2.0, prepared 2026-10-27. Author names, final project title, repository URL, DOI and licenses are pending. This package has not been uploaded or assigned a DOI.
+Reproducible CFD data and scripts for gravity-pipe flow simulation (ANSYS Fluent).
 
 This release contains saved ANSYS Fluent models and numerical evidence for a 30 m gravity pipe: three meshes (225,000 / 450,000 / 900,000 cells), a common coarse-grid 150 s starting field, three-grid 150–160 s continuations, baseline history, residuals, dense monitoring, timestep and outlet-boundary comparisons, and an analytical Manning roughness sweep.
 
